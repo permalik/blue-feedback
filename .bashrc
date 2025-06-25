@@ -1,9 +1,9 @@
 # Prompt
-export PS1="\n\[\e[1;32m\][devshell](blue-feedback) \w\n❯ \[\e[0m\]"
+export PS1="\n\[\e[1;32m\][devshell](yyyoink-feedback) \w\n❯ \[\e[0m\]"
 
 # Aliases
-alias docker-build-dev="docker build -t blue-feedback:dev ."
-alias docker-run-dev="docker run --rm blue-feedback:dev"
+alias docker-build-dev="docker build -t yyyoink-feedback:dev ."
+alias docker-run-dev="docker run --rm yyyoink-feedback:dev"
 alias nv="nvim"
 alias glr="pretty_git_log"
 alias gs="git status"

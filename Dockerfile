@@ -22,5 +22,5 @@ WORKDIR /bin
 
 # Copy /nix/store
 COPY --from=builder /tmp/nix-store-closure /nix/store
-COPY --from=builder /tmp/build/result /blue-feedback
-CMD ["/blue-feedback/bin/blue-feedback"]
+COPY --from=builder /tmp/build/result /yyyoink-feedback
+CMD ["/yyyoink-feedback/bin/yyyoink-feedback"]

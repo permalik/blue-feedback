@@ -1,3 +1,3 @@
-module github.com/permalik/blue-feedback
+module github.com/permalik/yyyoink-feedback
 
 go 1.23.6

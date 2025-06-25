@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-	fmt.Println("starting blue-feedback...")
+	fmt.Println("starting yyyoink-feedback...")
 }
